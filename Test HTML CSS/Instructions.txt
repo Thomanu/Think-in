@@ -1,0 +1,21 @@
+/*
+* Instructions pour test HTML/CSS
+*/
+
+
+- Refaire une page en HTML / CSS classique
+
+- La page doit ressembler au plus prêt à ce qu'on voit dans l'image "maquette.png"
+
+- Vous trouverez 2 images dans le dossier (une pour le logo et une pour le produit)
+
+- Pour les icônes, vous êtes libres d'utiliser une librairie d'icônes si vous voulez (type Font Awesome)
+
+- Vous êtes libre de faire la page comme vous voulez, pour y arriver.
+
+- A vous de nous rendre un code propre. Et que le résultat ressemble au maximum à la maquette.
+
+- Vous nous transmettrez le résultat dans un dossier ZIP.
+
+
+Merci et bon courage!

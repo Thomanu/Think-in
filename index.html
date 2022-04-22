@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think•in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <i class="fa-solid fa-bars burgermenu fa-2xl" id="burgermenu"></i>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list__item">
+                    <a href="">Consulting</a>
+                    <i class="fa-solid fa-chevron-down chervon"></i>
+                </li>
+                <li class="navbar__list__item">
+                    <a href="">Training</a>
+                    <i class="fa-solid fa-chevron-down chervon"></i>
+                </li>
+                <li class="navbar__list__item">
+                    <a href="">Business services</a>
+                    <i class="fa-solid fa-chevron-down chervon"></i>
+                </li>
+            </ul>
+            <img src="/asset/img/logo.png" alt="" class="navbar__logo">
+            <ul class="navbar__list">
+                <li class="navbar__list__item"><a href="">Discover us</a></li>
+                <li class="navbar__list__item"><a href="">Our clients</a></li>
+                <li class="navbar__list__item active"><a href="">Book a project</a></li>
+                <li class="navbar__list__item "><a href=""><i class="fa-solid fa-xl fa-user icons"></i></a></li>
+                <li class="navbar__list__item vertical "><a href=""><i
+                            class="fa-solid fa-xl fa-cart-shopping icons"></i></a></li>
+                <li class="navbar__list__item "><a href=""><i class="fa-solid fa-xl fa-magnifying-glass icons"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <div class="cart__content">
+                <h2 class="cart__title">My cart</h2>
+                <div class="cart__content__item">
+                    <figure class="cart__content__item__image">
+                        <img src="/asset/img/product.jpg" alt="">
+                    </figure>
+                    <h4>One-year consulting package - 1 day</h4>
+                    <p class="italic">€ 15 000,00</p>
+                    <p class="cart__quantity">2</p>
+                    <p class="bold italic">€ 30 000,00</p>
+                    <a href=""><i class="fa-solid fa-xmark danger"></i></a>
+                </div>
+                <div class="cart__more">
+                    <form method="get" class="cart__more__inputdiv">
+                        <input type="text" id="promo" class="cart__more__input" placeholder="Enter a promo code">
+                        <button class="cart_btn">apply</button>
+                    </form>
+                    <a class="cart_btn_disable">Update cart</a>
+                </div>
+            </div>
+            <div class="cart__summary">
+                <h2 class="cart__title">Order summary</h2>
+                <div class="cart__summary__list">
+                    <div class="cart__summary__list__item">
+                        <h3>Subtotal</h3>
+                        <p class="italic">€ 30 000,00</p>
+                    </div>
+                    <div class="cart__summary__list__item">
+                        <h3>TVA 20%</h3>
+                        <p class="smalltext italic">€ 6 000,00</p>
+                    </div>
+                    <div class="cart__summary__list__item">
+                        <h3>Total</h3>
+                        <p class="bold italic">€ 36 000,00</p>
+                    </div>
+                </div>
+                <button class="checkoutbtn">Proceed to checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__div">
+            <a href="">Legal info & Privacy policy</a>
+            <a href="">Terms of use</a>
+        </div>
+        <p class="disable">© 2021 Tinkin. All rights reserved.</p>
+    </footer>
+
+</body>
+<script async src="/asset/js/script.js"></script>
+
+</html>
